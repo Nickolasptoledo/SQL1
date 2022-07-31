@@ -1,0 +1,16 @@
+CREATE DATABASE CLASSIFICADOS
+
+USE CLASSIFICADOS
+
+CREATE TABLE TB_USUARIO(
+Nome varchar(250),
+Email varchar(250),
+Senha varchar(250),
+);
+
+CREATE TABLE TB_ANUNCIO(
+CATEGORIA varchar(250),
+DESCRICAO	varchar(250),
+PRECO int,
+contato varchar(250),
+);
